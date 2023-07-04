@@ -1,0 +1,126 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  z-index: 100;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  border-color: var(--dl-color-gray-black);
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url('./bg_globe_01.jpg');
+}
+.home-container1 {
+  width: 740px;
+  height: 358px;
+  display: flex;
+  position: relative;
+  align-items: center; /* Changed from "flex-start" to "center" */
+  justify-content: center; /* Added property */
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('https://i.imgur.com/IbILyko.png');
+  background-position: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.home-form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.home-textinput {
+  font-family: "Segoe UI", "Calibri", Tahoma, sans-serif;
+  font-size: 12px;
+  color: #000000;
+  top: 158px;
+  flex: 0;
+  left: 411px;
+  width: var(--dl-size-size-xlarge);
+  height: 20px;
+  z-index: 100;
+  position: absolute;
+  align-self: center;
+  padding-top: 0px;
+}
+.home-textinput1 {
+  font-family: "Segoe UI", "Calibri", Tahoma, sans-serif;
+  font-size: 12px;
+  color: #000000;
+  top: 193px;
+  flex: 0;
+  left: 411px;
+  width: var(--dl-size-size-xlarge);
+  height: 20px;
+  z-index: 100;
+  position: absolute;
+  align-self: center;
+  padding-top: 0px;
+}
+.home-textinput2 {
+  font-family: "Segoe UI", "Calibri", Tahoma, sans-serif;
+  font-size: 12px;
+  color: #000000;
+  top: 228px;
+  flex: 0;
+  left: 411px;
+  width: var(--dl-size-size-xlarge);
+  height: 20px;
+  z-index: 100;
+  position: absolute;
+  align-self: center;
+  padding-top: 0px;
+}
+.home-textinput3 {
+  font-family: "Segoe UI", "Calibri", Tahoma, sans-serif;
+  font-size: 12px;
+  color: #000000;
+  flex: 0;
+  left: 411px;
+  width: var(--dl-size-size-xlarge);
+  bottom: 73px;
+  height: 20px;
+  z-index: 100;
+  position: absolute;
+  align-self: center;
+  padding-top: 0px;
+}
+.home-button {
+  font-family: "Segoe UI", "Calibri", Tahoma, sans-serif;
+  color: #000000;
+  text-align: center;
+  left: 525px;
+  width: 78px;
+  bottom: 39px;
+  height: 18px;
+  z-index: 100;
+  position: absolute;
+  font-size: 9px;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+}
+.home-text {
+  top: 160px;
+  left: 257px;
+  position: absolute;
+}
+.home-text1 {
+  top: 264px;
+  left: 264px;
+  position: absolute;
+}
+.home-text2 {
+  top: 228px;
+  left: 317px;
+  position: absolute;
+}
+.home-text3 {
+  top: 193px;
+  left: 316px;
+  position: absolute;
+}
